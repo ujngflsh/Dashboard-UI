@@ -4,12 +4,12 @@
 
 # Dashboard UI
 
-A modern and clean Dashboard UI project showcasing a professional interface design for portfolio presentation.
+A modern and clean dashboard interface built as part of my portfolio projects.
 
-## Getting Started
+## Run Locally
 
 1. Install dependencies  
    `npm install`
 
-2. Run the development server  
+2. Start the development server  
    `npm run dev`
