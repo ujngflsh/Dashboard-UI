@@ -1,0 +1,32 @@
+import { Order } from './types';
+
+export const MOCK_ORDERS: Order[] = [
+  { id: '#2633', name: 'John McConick', address: '123 Main St, New York', date: '2020-08-01', price: '$135.00', status: 'dispatch', avatar: 'https://picsum.photos/seed/john/100/100.jpg' },
+  { id: '#2634', name: 'Sarah Johnson', address: '456 Oak Ave, Los Angeles', date: '2020-08-01', price: '$275.50', status: 'completed', avatar: 'https://picsum.photos/seed/sarah/100/100.jpg' },
+  { id: '#2635', name: 'Michael Brown', address: '789 Pine Rd, Chicago', date: '2020-08-02', price: '$89.99', status: 'pending', avatar: 'https://picsum.photos/seed/michael/100/100.jpg' },
+  { id: '#2636', name: 'Emily Davis', address: '321 Elm St, Houston', date: '2020-08-02', price: '$156.75', status: 'dispatch', avatar: 'https://picsum.photos/seed/emily/100/100.jpg' },
+  { id: '#2637', name: 'David Wilson', address: '654 Maple Dr, Phoenix', date: '2020-08-02', price: '$420.00', status: 'completed', avatar: 'https://picsum.photos/seed/david/100/100.jpg' },
+  { id: '#2638', name: 'Jessica Taylor', address: '987 Cedar Ln, Philadelphia', date: '2020-08-03', price: '$67.30', status: 'pending', avatar: 'https://picsum.photos/seed/jessica/100/100.jpg' },
+  { id: '#2639', name: 'Robert Martinez', address: '147 Birch Blvd, San Antonio', date: '2020-08-03', price: '$198.50', status: 'dispatch', avatar: 'https://picsum.photos/seed/robert/100/100.jpg' },
+  { id: '#2640', name: 'Linda Anderson', address: '258 Spruce Way, San Diego', date: '2020-08-03', price: '$312.75', status: 'completed', avatar: 'https://picsum.photos/seed/linda/100/100.jpg' },
+  { id: '#2641', name: 'William Thomas', address: '369 Willow Ct, Dallas', date: '2020-07-31', price: '$95.20', status: 'pending', avatar: 'https://picsum.photos/seed/william/100/100.jpg' },
+  { id: '#2642', name: 'Patricia Jackson', address: '741 Poplar Ave, San Jose', date: '2020-07-31', price: '$225.80', status: 'dispatch', avatar: 'https://picsum.photos/seed/patricia/100/100.jpg' },
+  { id: '#2643', name: 'Christopher White', address: '852 Ash St, Austin', date: '2020-07-31', price: '$410.00', status: 'completed', avatar: 'https://picsum.photos/seed/christopher/100/100.jpg' },
+  { id: '#2644', name: 'Nancy Harris', address: '963 Sycamore Dr, Jacksonville', date: '2020-08-01', price: '$78.90', status: 'pending', avatar: 'https://picsum.photos/seed/nancy/100/100.jpg' },
+  { id: '#2645', name: 'Daniel Martin', address: '159 Hickory Ln, Fort Worth', date: '2020-08-01', price: '$189.60', status: 'dispatch', avatar: 'https://picsum.photos/seed/daniel/100/100.jpg' },
+  { id: '#2646', name: 'Karen Thompson', address: '753 Dogwood Way, Columbus', date: '2020-08-02', price: '$267.45', status: 'completed', avatar: 'https://picsum.photos/seed/karen/100/100.jpg' },
+  { id: '#2647', name: 'Paul Garcia', address: '951 Redwood Blvd, Charlotte', date: '2020-08-02', price: '$134.25', status: 'pending', avatar: 'https://picsum.photos/seed/paul/100/100.jpg' },
+  { id: '#2648', name: 'Sandra Martinez', address: '357 Birch St, Indianapolis', date: '2020-08-03', price: '$298.70', status: 'dispatch', avatar: 'https://picsum.photos/seed/sandra/100/100.jpg' },
+  { id: '#2649', name: 'Mark Robinson', address: '452 Pine Ave, Seattle', date: '2020-08-03', price: '$425.30', status: 'completed', avatar: 'https://picsum.photos/seed/mark/100/100.jpg' },
+  { id: '#2650', name: 'Betty Clark', address: '658 Oak Dr, Denver', date: '2020-07-31', price: '$112.85', status: 'pending', avatar: 'https://picsum.photos/seed/betty/100/100.jpg' },
+  { id: '#2651', name: 'Steven Rodriguez', address: '147 Maple Ln, Boston', date: '2020-07-31', price: '$178.95', status: 'dispatch', avatar: 'https://picsum.photos/seed/steven/100/100.jpg' },
+  { id: '#2652', name: 'Dorothy Lewis', address: '259 Cedar Ct, Washington', date: '2020-08-01', price: '$236.40', status: 'completed', avatar: 'https://picsum.photos/seed/dorothy/100/100.jpg' },
+  { id: '#2653', name: 'Joseph Lee', address: '368 Willow Way, Nashville', date: '2020-08-01', price: '$89.75', status: 'pending', avatar: 'https://picsum.photos/seed/joseph/100/100.jpg' },
+  { id: '#2654', name: 'Helen Walker', address: '741 Elm St, Baltimore', date: '2020-08-02', price: '$312.60', status: 'dispatch', avatar: 'https://picsum.photos/seed/helen/100/100.jpg' },
+  { id: '#2655', name: 'Thomas Hall', address: '852 Oak Ave, Oklahoma City', date: '2020-08-02', price: '$145.30', status: 'completed', avatar: 'https://picsum.photos/seed/thomas/100/100.jpg' },
+  { id: '#2656', name: 'Ruth Allen', address: '963 Pine Rd, Portland', date: '2020-08-03', price: '$267.80', status: 'pending', avatar: 'https://picsum.photos/seed/ruth/100/100.jpg' },
+  { id: '#2657', name: 'Charles Young', address: '159 Maple Dr, Las Vegas', date: '2020-08-03', price: '$389.45', status: 'dispatch', avatar: 'https://picsum.photos/seed/charles/100/100.jpg' },
+  { id: '#2658', name: 'Sharon King', address: '753 Cedar Ln, Milwaukee', date: '2020-07-31', price: '$167.20', status: 'completed', avatar: 'https://picsum.photos/seed/sharon/100/100.jpg' },
+  { id: '#2659', name: 'Christopher Wright', address: '951 Birch Ave, Sacramento', date: '2020-07-31', price: '$224.65', status: 'pending', avatar: 'https://picsum.photos/seed/wright/100/100.jpg' },
+  { id: '#2660', name: 'Michelle Lopez', address: '357 Willow St, Kansas City', date: '2020-08-01', price: '$156.90', status: 'dispatch', avatar: 'https://picsum.photos/seed/michelle/100/100.jpg' }
+];
