@@ -1,7 +1,3 @@
-<div align="center">
-  <img width="1200" height="475" alt="Dashboard UI Preview" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 # Dashboard UI
 
 A modern and minimal dashboard user interface built with HTML, CSS, and JavaScript.
@@ -18,3 +14,8 @@ This project demonstrates clean UI design suitable for administration or analyti
 ## Getting Started
 
 1. Install dependencies  
+
+2. Start the development server  
+
+## License
+This project is licensed under the MIT License.
